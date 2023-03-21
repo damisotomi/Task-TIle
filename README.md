@@ -13,11 +13,17 @@ This Project implements a task and tile model as outlined above and also an API 
 ## Extra Features
 
 -I Used ModelViewset class to expose the APIs
+
 -I implemented Pagination, Filtering and Searching on the APIs
+
 -I made the serializer to be as robust as possible. Each Tile also returns a list of the task under it
+
 -I implemented DefaultRouter using DRF routers
+
 -Loaded up the db using dummy data
+
 -I set up the admin interface using the credentials below
+
 Email: tasktile@gmail.com
 username: tasktile
 Password: tasktile
@@ -25,6 +31,9 @@ Password: tasktile
 ## To Run the Application
 
 -Activate the virtual environment by navigating to venv/Scripts/Activate.ps1
+
 -Install all dependencies using `pip install -r requirements.txt`
+
 -Run `py manage.py runserver` to start the development server
+
 -Click on any of the API links shown on screen to interact with the API using DRF browseable API
