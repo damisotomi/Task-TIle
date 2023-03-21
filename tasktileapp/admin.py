@@ -8,9 +8,6 @@ admin.site.site_header='Task Tile Admin'
 class TaskInline(admin.TabularInline):
     model=Task
     extra=0
-    min_num=1
-    max_num=3
-
 
 @admin.register(Task)
 class TaskAdmin(admin.ModelAdmin):
